@@ -9,5 +9,4 @@ def uppercase(str):
 
         print(f"{c}", end="")
 
-        if i == len(str) - 1:
-            print("\n")
+    print("\n")
