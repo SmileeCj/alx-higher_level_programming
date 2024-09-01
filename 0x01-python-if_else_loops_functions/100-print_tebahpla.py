@@ -5,4 +5,4 @@ for i in range(122, 96, -1):
     if i % 2 > 0:
         n = 32
 
-    print(f"{i - n:c}", end="")
+    print("{:c}".format(i - n), end="")
